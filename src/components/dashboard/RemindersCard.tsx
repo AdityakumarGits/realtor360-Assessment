@@ -14,7 +14,7 @@ export function RemindersCard() {
           15 leads need to be followed up.
         </p>
         <div className="mt-2 flex -space-x-1.5">
-          {["J", "M", "A", "E"].map((name, i) => (
+          {["J", "M", "A", "E"].map((name) => (
             <span
               key={name}
               className="grid h-6 w-6 place-items-center rounded-full border-2 border-white bg-brand-pale text-[10px] font-semibold text-brand-dark"
